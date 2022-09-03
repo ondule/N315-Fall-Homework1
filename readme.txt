@@ -1,6 +1,6 @@
     Jesús Andrade
     N315 FALL2022
-    HOMEWORK 1
+    Assignment 1
              		          ,--.
                           {    }
                           K,   }
