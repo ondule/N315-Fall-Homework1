@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: beige;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url(../images/fonts/SimonciniGaramondStd.otf);
+}
+@font-face {
+  font-family: "FuturaBook";
+  src: url(../images/fonts/futura/FuturaStd-Book.otf);
+}
+@font-face {
+  font-family: "FuturaHeavyOblique";
+  src: url(../images/fonts/futura/FuturaStd-HeavyOblique.otf);
+}
+nav {
+  height: 170px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .logo {
+  height: 100%;
+  margin-left: 90px;
+}
+nav .logo img {
+  height: 100%;
+}
+nav .links {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "FuturaBook";
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.active {
+  font-family: FuturaHeavyOblique;
+}
+
+.banner {
+  min-height: 10%;
+  background-color: coral;
+  background-image: url(../images/waterBuffalo.png);
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+.accent {
+  height: min 55%;
+  background-color: #f9c4cc;
+  color: #f9c4cc;
+}
+
+.content {
+  min-height: 100%;
+  background-color: beige;
+  display: flex;
+  justify-content: space-evenly;
+}
+.content .leftContent {
+  background-color: rgb(224, 76, 76);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  min-width: 35%;
+  height: 800px;
+  background-image: url(../images/ghostFace.jpg);
+  background-size: 105%;
+  background-position: center;
+  text-decoration: none;
+}
+.content .rightContent {
+  justify-items: center;
+  margin-top: 90px;
+  min-width: 35%;
+  height: 800px;
+  background-image: url(../images/bigBoss.jpg);
+  background-size: 105%;
+  background-position: center;
+  text-decoration: none;
+}
+.content h2 {
+  font-size: 130px;
+  color: rgb(255, 255, 255);
+}
+
+.pageDescription {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 180px;
+  padding-top: 20px;
+}
+.pageDescription p {
+  width: 40%;
+  font-family: Garamond;
+  font-size: 34px;
+  font-style: italic;
+}
+
+.galleryContent {
+  min-height: 100%;
+  background-color: beige;
+  margin-bottom: 100px;
+}
+
+.row1 {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 100%;
+}
+
+.row2 {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 100%;
+}
+
+.row3 {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 100%;
+}
+
+.item1 {
+  height: 100%;
+  width: 20%;
+  background-image: url(../images/gallery/beardie.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item2 {
+  height: 100%;
+  width: 20%;
+  background-image: url(../images/gallery/blackberry.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item3 {
+  height: 100%;
+  width: 20%;
+  background-image: url(../images/gallery/bowie.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item4 {
+  height: 100%;
+  width: 20%;
+  background-image: url(../images/gallery/desafio.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item5 {
+  height: 100%;
+  width: 20%;
+  background-image: url(../images/gallery/furia.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item6 {
+  height: 100%;
+  width: 20%;
+  background-image: url(../images/gallery/kurdishFighter.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item7 {
+  height: 100%;
+  width: 20%;
+  background-image: url(../images/gallery/lobo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item8 {
+  height: 100%;
+  width: 20%;
+  background-image: url(../images/gallery/subcomandante.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.item9 {
+  height: 100%;
+  width: 20%;
+  background-image: url(../images/gallery/waterBuffalo1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  height: 120px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+.leftFoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: "FuturaBook";
+}
+.leftFoot .footLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  width: 40%;
+  height: 80%;
+}
+.leftFoot .footLinks a {
+  text-decoration: none;
+  color: #fff;
+}
+.leftFoot h3 {
+  font-size: 16px;
+}
+
+.aboutContent {
+  min-height: 100%;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutLeft {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.aboutRight {
+  width: 40%;
+  min-height: 500px;
+}
+.aboutRight h2 {
+  margin-left: 80px;
+  width: 20%;
+  margin-bottom: -12px;
+  font-family: Garamond;
+  font-style: italic;
+  font-size: 85px;
+}
+.aboutRight p {
+  margin-left: 80px;
+  width: 80%;
+  font-size: 24px;
+  font-family: Garamond;
+}
+
+.aboutLeft .profilePic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url(../images/selfie.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  border-radius: 180px;
+}
+
+.contactBody {
+  min-height: 100%;
+  background-color: beige;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: coral;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f9c4cc;
+  padding: 20px;
+}
+
+.container label {
+  font-family: "FuturaBook";
+}
+
+input {
+  font-family: "FuturaBook";
+}
+
+textarea {
+  font-family: Garamond;
+}
+
+option {
+  font-family: "FuturaBook";
+}
+
+select {
+  font-family: "FuturaBook";
+}
+
+/*# sourceMappingURL=styles.css.map */

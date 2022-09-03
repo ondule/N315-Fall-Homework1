@@ -1,0 +1,33 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ background-color: beige;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ margin-bottom: 16px;
+}
+
+@font-face {
+    font-family: "Garamond";
+    src: url(../images/fonts/SimonciniGaramondStd.otf);
+}
+
+@font-face {
+    font-family: "FuturaBook";
+    src: url(../images/fonts/futura/FuturaStd-Book.otf);
+}
+
+@font-face {
+    font-family: "FuturaHeavyOblique";
+    src: url(../images/fonts/futura/FuturaStd-HeavyOblique.otf);
+}

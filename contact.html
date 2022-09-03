@@ -1,0 +1,72 @@
+<!-- 
+    Jesús Andrade
+    N315 FALL2022
+    HOMEWORK 1
+    Contact Page
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>ONDULE - Contact</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="images/onduleLogoBW.png" alt="site logo">
+        </div>
+        <div class="links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="gallery.html">GALLERY</a>
+        <a class="active" href="contact.html">CONTACT</a>
+        </div>
+        
+    </nav>
+    <section class="banner"></section>
+    <section class="accent">ONDULE ONDULE ONDULE ONDULE</section>
+    
+    <section class="aboutContent">
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Reason</label>
+              <select id="country" name="country">
+                <option value="commision">Commision</option>
+                <option value="buy">I Want to Buy Some Work</option>
+                <option value="other">Other</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Leave your message here.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </section>
+    <footer>
+        <div class="leftFoot">
+            <div class="footLinks">
+                <a href="about.html"><h3>About</h3></a>
+                <a href="contact.html"><h3>Contact</h3></a>
+                <a href="gallery.html"><h3>Gallery</h3></a>
+                <p>&copy Jesús Andrade 2022</p>
+            </div>
+            
+        </div>
+        
+        <div class="rightFoot"></div>
+    </footer>
+</body>
+</html>

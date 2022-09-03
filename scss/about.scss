@@ -1,0 +1,64 @@
+.aboutContent {
+    min-height: 100%;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    //margin-bottom: 100px;
+
+}
+
+.aboutLeft {
+    //margin-top: 90px;
+    height: 300px;
+    width: 300px;
+    //background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+
+.aboutRight {
+    //margin-top: 90px;
+    width: 40%;
+    //background-color: rgb(0, 0, 0);
+    min-height: 500px;
+
+        h2 {
+            //margin-top: 50px;
+            margin-left: 80px;
+            //background-color: chocolate;
+            width: 20%;
+            margin-bottom: -12px;
+            //color: white;
+            font-family: Garamond;
+            font-style: italic;
+            font-size: 85px;
+        }
+
+        p {
+            margin-left: 80px;
+            //background-color: darksalmon;
+            width: 80%;
+            font-size: 24px;
+            //color: white;
+            font-family: Garamond;
+        }
+}
+
+.aboutLeft .profilePic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: url(../images/selfie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 180px;
+}
+

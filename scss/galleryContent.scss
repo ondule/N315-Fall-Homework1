@@ -1,0 +1,136 @@
+//*GALLERY PAGE*//
+.galleryContent {
+    min-height: 100%;
+    background-color: beige;
+    //display: flex;
+    //justify-content: space-evenly;
+    margin-bottom: 100px;
+
+}
+
+.row1 {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    height: 500px;
+    width: 100%;
+    //background-color: chartreuse;
+}
+
+.row2 {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+   // background-color: rgb(0, 255, 242);
+}
+
+.row3 {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+    //background-color: rgb(120, 90, 226);
+}
+
+.item1 {
+    height: 100%;
+    width: 20%;
+    //background-color: deeppink;
+    background-image: url(../images/gallery/beardie.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item2 {
+    height: 100%;
+    width: 20%;
+    //background-color: deeppink;
+    background-image: url(../images/gallery/blackberry.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.item3 {
+    height: 100%;
+    width: 20%;
+    //background-color: deeppink;
+    background-image: url(../images/gallery/bowie.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item4 {
+    height: 100%;
+    width: 20%;
+    //background-color: deeppink;
+    background-image: url(../images/gallery/desafio.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item5   {
+    height: 100%;
+    width: 20%;
+    //background-color: deeppink;
+    background-image: url(../images/gallery/furia.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item6 {
+    height: 100%;
+    width: 20%;
+    //background-color: deeppink;
+    background-image: url(../images/gallery/kurdishFighter.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item7 {
+    height: 100%;
+    width: 20%;
+    //background-color: deeppink;
+    background-image: url(../images/gallery/lobo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item8 {
+    height: 100%;
+    width: 20%;
+    //background-color: deeppink;
+    background-image: url(../images/gallery/subcomandante.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item9 {
+    height: 100%;
+    width: 20%;
+    //background-color: deeppink;
+    background-image: url(../images/gallery/waterBuffalo1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+
+

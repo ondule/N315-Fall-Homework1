@@ -1,0 +1,61 @@
+//*HOME PAGE CONTENT*//
+
+.content {
+    min-height: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+    .leftContent {
+        background-color: rgb(224, 76, 76);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+        min-width: 35%;
+        height: 800px;
+        background-image: url(../images/ghostFace.jpg);
+        background-size: 105%;
+        background-position: center;
+        text-decoration: none;
+    }
+
+    .rightContent {
+        justify-items: center;
+        margin-top: 90px;
+        min-width: 35%;
+        height: 800px;
+        background-image: url(../images/bigBoss.jpg);
+        background-size: 105%;
+        background-position: center;
+        text-decoration: none;
+    }
+
+    h2 {
+        font-size: 130px;
+        color: rgb(255, 255, 255);
+    }
+
+}
+
+.pageDescription {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    //background-color: chartreuse;
+    margin-bottom: 180px;
+    padding-top: 20px;
+
+        p{  
+            width: 40%;
+            font-family: Garamond;
+            font-size: 34px;
+            font-style: italic;
+        }
+}
+
+
+
+
+

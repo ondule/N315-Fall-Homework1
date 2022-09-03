@@ -1,0 +1,15 @@
+{
+  "name": "dayone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile-sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "author": "Andrade",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.8"
+  }
+}
